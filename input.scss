@@ -1,0 +1,25 @@
+@import 'variable';
+@import 'mixin';
+
+@include mixinBody($color_primary, $color_secondary);
+
+body {
+    background-color: $color_standard;
+    color: rgba($color_primary, 0.4);
+    header {
+        height:10%;
+        //background-color: $color_primary;
+    }
+    section {
+        height:85%;
+        //background-color: blue;
+    }
+    footer {
+        height:5%;
+        //background-color: $color_secondary;
+    }
+    
+}
+
+#mapid { height: 100%; }
+

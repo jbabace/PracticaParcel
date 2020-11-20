@@ -1,0 +1,30 @@
+{
+  "name": "nombre",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.2",
+    "parcel": "^2.0.0-nightly.453",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "alias": {
+    "leaflet": {
+      "global": "L"
+    }
+  },
+  "scripts": {
+    "build-yarn": "yarn css && yarn js",
+    "prebuild-yarn": "rm -rv dist",
+    "css": "sass input.scss dist/style.css",
+    "js": "babel . --ignore node_modules --out-dir dist",
+    "build": "cross-env NODE_ENV=production parcel build indexPro.html --dist-dir dist --no-source-maps",
+    "prebuild": "rm -fr .parcel-cache dist",
+    "prestart": "rm -fr .parcel-cache dist",
+    "start": "cross-env NODE_ENV=development parcel index.html --dist-dir dist --no-autoinstall --no-source-maps"
+  }
+}

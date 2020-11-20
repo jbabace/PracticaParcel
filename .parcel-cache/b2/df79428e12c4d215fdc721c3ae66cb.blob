@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="4b5789c3c86c339560d89066f7f4a098">
+        <link rel="stylesheet" href="ac43967977113650f5893f32f277269b" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+    </head>
+    <body class="">
+        <header class="light">
+            gg hahahaha
+        </header>
+        <section class="">
+            <div id="mapid"></div>
+        </section>
+        <footer class="dark">
+            gg
+        </footer>
+        
+        <script src="fcc7b06016a28f12b79785e07c9c655c" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <script src="cf729a02d4487ec29703472d58c22065"></script>
+    </body>
+</html>

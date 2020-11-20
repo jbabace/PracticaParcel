@@ -1,0 +1,12 @@
+@mixin mixinBody($cp, $cs){
+    body * {
+        &.dark{
+            background-color: $cp;
+            color: $cs;
+        }
+        &.light{
+            background-color: $cs;
+            color: $cp;
+        }
+    }
+}
